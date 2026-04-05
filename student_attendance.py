@@ -22,7 +22,7 @@ def search_student(name):
         if student["name"]==name:
             print(i,"-",student["name"],"-",student["attendance"])
             return
-        print("Not Founded")
+    print("Not Founded")
 
 def present_count():
     count=0
